@@ -1,5 +1,20 @@
 {
+  "Post": {
+    "title": { "string": 
+              {
     "license": "LH887-2P781-WDEXW-LQSOG-X2DB9",
     "product": "BedWars1058-Quests",
     "version": "4.0.1-Stable"
+}
+             },
+    "comments": {
+      "hasMany": "Comment"
+    }
+  },
+  "Comment": {
+    "body": { "string": {} },
+    "post": {
+      "belongsTo": "Post"
+    }
+  }
 }
