@@ -3,6 +3,10 @@
 
 Repository to create new add-on suggestions and report bugs.
 
+Create a new report of issues or suggestion in [Issues][issues]
+
+[issues]: https://github.com/reussy/BW1058-Quests/issues
+
 ## Quick Links
  
 - [Polymart Version][polymart]
